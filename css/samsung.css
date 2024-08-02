@@ -1,0 +1,103 @@
+@charset "utf-8";
+body {margin: 0; padding: 0;}
+ul,li,ol {list-style: none; margin: 0; padding: 0;}
+
+header {width: 1000px; height: 100px; margin: 0 auto;}
+#logo {float: left; width: 150px; height: 50px; margin: 10px 0 0 10px;}
+#logo > img {width: 100%; height: 100%; margin: 15px 0 0 0px;}
+
+nav {width: 110px; height: 50px; float: right; margin: 25px 30px 0 0px;}
+nav > ul > li > a > img {width: 35px; height: 35px; float: left;}
+.img1 {float: right;}
+
+
+#slider {width: 1000px; height: 400px; margin: 0 auto; background-color: tomato;}
+#slider img {width: 100%; height: 100%;}
+
+
+section {width: 1000px; height: 3660px; margin: 0 auto; background-color: gray;}
+
+#component {width: 1000px; height: 528px;}
+article {width: 220px; height: 220px; margin: 30px 10px 10px 10px; float: right;}
+
+.art1 {width: 470px; height: 470px; margin-right: 20px;}
+.art2 {margin: -229px 10px 10px 10px;}
+article > a > img {width: 100%; height: 100%;}
+
+#content {width: 100%; height: 278px;}
+#content > h3 {font-family: "돋움"; font-size: 24px; margin: 0 0 0 310px;}
+#content > a > img {margin: 25px 29px 0 29px; border-radius: 20px;}
+
+.img2 {top: 100px;}
+
+.arrow-next,
+.arrow-prev{
+    position: relative;
+    float:right;
+    width:1px;
+    height:1px;
+    margin-right:5px;
+    bottom: 35px;
+}
+
+        .arrow-prev::after {
+    position: absolute;
+    right: 38px; 
+    top: 6px;
+    content: '';
+    width: 18px; /* 사이즈 */
+    height: 18px; /* 사이즈 */
+    border-top: 1.5px solid #666; /* 선 두께 */
+    border-right: 1.5px solid #666; /* 선 두께 */
+    transform: rotate(225deg); /* 각도 */
+}
+
+.arrow-next::after {
+    position: absolute;
+    right: 7px; 
+    top: 6px; 
+    content: '';
+    width: 18px; /* 사이즈 */
+    height: 18px; /* 사이즈 */
+    border-top: 1.5px solid #000; /* 선 두께 */
+    border-right: 1.5px solid #000; /* 선 두께 */
+    transform: rotate(45deg); /* 각도 */
+}
+
+.lozad_1 {width: 100%; height: 524px; position: relative;}
+.lozad_1 > img {width: 100%; height: 100%;}
+.lozad_1_text_1 {position: absolute; font-size: 22px; top: 1%; left: 45%; color: black; font-family: "SamsungOneKorean";}
+.lozad_1_text_2 {position: absolute; font-size: 14px; top: 10%; left: 3%; color: black; font-family: "SamsungOneKorean";}
+.lozad_1_text_3 {position: absolute; font-size: 32px; top: 62%; left: 25%; color: black; font-family: "SamsungOneKorean";}
+.lozad_1_text_4 {position: absolute; font-size: 13px; top: 75%; left: 37%; color: black; font-family: "SamsungOneKorean";}
+.lozad_1_button_1 {position: absolute; font-size: 12px; top: 87%; left: 52%; color: white; border: none; border-radius: 20px; padding: 10px 21px; background-color: black;}
+.lozad_1_button_2 {position: absolute; font-size: 12px; top: 87%; left: 35%; color: white; border: none; border-radius: 20px; padding: 10px 21px; background-color: black;}
+
+.lozad_2 {width: 100%; height: 524px; position: relative;}
+.lozad_2 > img {width: 100%; height: 100%;}
+.lozad_2_text_1 {position: absolute; font-size: 22px; top: 1%; left: 45%; color: white; font-family: "SamsungOneKorean";}
+.lozad_2_text_2 {position: absolute; font-size: 14px; top: 10%; left: 15%; color: white; font-family: "SamsungOneKorean";}
+.lozad_2_text_3 {position: absolute; font-size: 32px; top: 62%; left: 40%; color: white; font-family: "Samsung Sharp Sans","SamsungOneKorean";}
+.lozad_2_text_4 {position: absolute; font-size: 13px; top: 75%; left: 35%; color: white; font-family: "SamsungOneKorean";}
+.lozad_2_button_1 {position: absolute; font-size: 12px; top: 85%; left: 44%; color: white; border: none; border-radius: 20px; padding: 10px 21px; background-color: black;}
+
+.lozad_3 {width: 100%; height: 524px; position: relative;}
+.lozad_3 > img {width: 100%; height: 100%;}
+.lozad_3_text_1 {position: absolute; font-size: 22px; top: 1%; left: 45%; font-family: "SamsungOneKorean";}
+.lozad_3_text_2 {position: absolute; font-size: 14px; top: 10%; left: 10%; font-family: "SamsungOneKorean";}
+.lozad_3_text_3 {position: absolute; font-size: 13px; top: 62%; left: 42%; font-family: "SamsungOneKorean";}
+.lozad_3_text_4 {position: absolute; font-size: 35px; top: 62%; left: 37%; font-family: "SamsungOneKorean";}
+.lozad_3_button_1 {position: absolute; font-size: 12px; top: 87%; left: 44%; color: white; border: none; border-radius: 20px; padding: 10px 21px; background-color: black;}
+
+.gap {width: 100%; height: 50px;}
+
+.wed_lozad_1 {width: 100%; height: 500px; background-color: aquamarine; position: relative;}
+.wed_lozad_1 > img {width: 529px; height: 396px;border-radius: 20px; top: 0px; right: 190px; position: absolute;}
+.wed_lozad_1 > a {text-decoration: none;}
+.wed_lozad_1 > a > p {position: absolute; bottom: 210px; left: 10px; font-size: 30px; font-family: "SamsungOneKorean"; color: #000;}
+.wed_lozad_1_text {position: absolute; right: 0px;}
+.wed_lozad_1_text a {text-decoration: none; color: #000;}
+
+footer {width: 1000px; height: 470px; margin: 0 auto; background-color: pink; }
+footer > span {font-size: 12px;}
+footer > p {font-size: 12px;}
